@@ -1,0 +1,58 @@
+    .app,
+    .arraybutton {
+        width: max-content;
+        height: max-content;
+        background-color: teal;
+        padding: 2rem;
+        text-align: center;
+        border-radius: 24px;
+        box-shadow: 10px 10px black;
+        margin: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+
+        img {
+            width: 60%;
+            box-shadow: 5px 5px black;
+            border-radius: 12px;
+            margin: auto auto;
+        }
+
+        >button {
+            width: min-content;
+            margin-inline: auto;
+            font-size: 20px;
+        }
+
+        div {
+            margin-top: 16px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+    }
+
+    .arraybutton>* {
+        margin-bottom: 12px;
+    }
+
+    .bosswrapper {
+        width: max-content;
+        height: min-content;
+        background-color: darksalmon;
+        padding: 1.5rem;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 5px 5px black;
+        margin: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .superbutton {
+        background-color: tomato;
+        color: cornsilk;
+    }
